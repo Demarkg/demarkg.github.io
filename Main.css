@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: Helvetica Neue, Helvetica, Arial, "sans-serif";
+    font-family:"Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-family:"Nirmala UI";
+    color:#242729;
+}
+
+body {
+    background-color:#242729;
+}
+
+
+h1{
+    font-family:"Nirmala UI";
+    color:#242729;
+}
+
+h2{
+    font-family:"Nirmala UI";
+    color:#242729;
+}
+
+
+h3{
+    font-family:"Nirmala UI";
+    color:#242729;
+}
+
+h4{
+    font-family:"Nirmala UI";
+    color:#242729;
+}
+
+.Main-Header{
+    display:flex;
+    height:5rem;
+    width:100%;
+    background-image: url("images/Main_Logo.svg");
+    background-position: center;
+    background-color:#61605F;
+    background-repeat: no-repeat;
+    position:fixed;
+    top:0;
+    
+}
+
+.nav-menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:2rem;
+    background-image: linear-gradient(#652F7E, purple);
+    position:fixed;
+    width:100%;
+    top:5em;
+}
+
+.nav-menu li{
+    list-style-type: none;
+    padding:1rem;
+}
+
+.nav-menu li a{
+    color:white;
+    text-decoration: none;
+    padding:.25rem 2.5rem .25rem 2.5rem;
+    font-family:"Nirmala UI";
+}
+
+.nav-menu li a:hover{
+    border-radius: .25rem;
+    background-color:#FFB81E;
+    color:#652F7E;
+    font-weight: bold;
+}
+
+.hamburger{
+    display:flex;
+    flex-direction: column;
+    margin-left:1em;
+    justify-content: center;
+    visibility: hidden;
+    cursor:pointer; 
+}
+
+.bar{
+    display:block;
+    color:white;
+    background-color:white;
+    height:.25em;
+    width:2.5em;
+    margin:.25em;
+    border-radius:.25em;
+}
+
+.Footer{
+    grid-area:F;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: .25rem;
+    text-align: center;
+    padding:.25rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.Footer p{
+    padding: 0;
+    margin:.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+    
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    width:100vw;
+    height:100%;
+    top:5em;
+    justify-content: flex-start;
+    transform:translateX(-125%);
+    transition: 1s;
+    padding-top:1em;
+    }
+    
+.nav-menu.active{
+        transform:translateX(0%);
+        transition: 1s;
+    }
+    
+.Main-Header{
+    position:fixed;
+    top:0;
+    border-bottom: solid .5rem #652F7E;
+}
+
+.nav-menu li{
+    display: flex;
+    justify-content: center;
+    padding:0em;
+    width:25em; 
+    border-bottom: solid .05em whitesmoke;
+}
+    
+.nav-menu li a{
+    display: flex;
+    justify-content: center;
+    padding:0em;
+    width:95%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+    
+.hamburger{
+    display:flex;
+    flex-direction: column;
+    margin-left:1em;
+    justify-content: center;
+    visibility:visible;
+    }
+    
+    
+    .hamburger.active .bar:nth-child(1){
+        transform:translateY(.75em) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity:0;
+    }
+       .hamburger.active .bar:nth-child(3){
+       transform:translateY(-.75em) rotate(-45deg);
+    }
+    
+}
+
+
+/*    align-items controls where the flex items sit on the cross axis.*/
+/*    justify-content controls where the flex items sit on the main axis.*/
