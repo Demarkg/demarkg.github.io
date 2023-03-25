@@ -15,7 +15,6 @@ body {
     background-color:#242729;
 }
 
-
 h1{
     font-family:"Nirmala UI";
     color:#242729;
@@ -42,7 +41,7 @@ h4{
     flex-direction: row;
     height:5rem;
     width:100%;
-    background-image: url("images/Main_Logo.svg");
+    background-image: url("images/Main_Logo3.svg");
     background-position: center;
     background-color:#61605F;
     background-repeat: no-repeat;
