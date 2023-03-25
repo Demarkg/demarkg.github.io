@@ -41,14 +41,27 @@ h4{
     flex-direction: row;
     height:5rem;
     width:100%;
+/*
     background-image: url("images/Main_Logo3.svg");
+    background-size: auto 4rem;
     background-position: center;
-    background-color:#61605F;
     background-repeat: no-repeat;
+*/
+    background-color:#61605F;
     position:fixed;
     top:0;
-    background-size: auto 4rem;
-/*    background-size: contain;*/
+/*    justify-content: center;*/
+}
+
+
+.main-logo{
+    align-self: center;
+    height:4.8rem;
+    width:auto;
+    align-items: center;
+    margin:0;
+    margin-left:2rem;
+    
     
 }
 
@@ -85,10 +98,11 @@ h4{
 .hamburger{
     display:flex;
     flex-direction: column;
-    margin-left:1em;
+    margin-left:1rem;
     justify-content: center;
-    visibility: hidden;
+/*    visibility: hidden;*/
     cursor:pointer; 
+
 }
 
 .bar{
