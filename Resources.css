@@ -47,7 +47,7 @@
 
 .Home-Grid a{
     align-self: center;
-/*    color:white;*/
+    color:#652F7E;
 }
 
 .Home-Grid a:link{
@@ -56,7 +56,7 @@
     background-color:#652F7E;
     background-color:lightgray;
     color:#652F7E;
-font-weight: bold; 
+    font-weight: bold; 
     width:25rem;
     padding-top:.5rem;
     padding-bottom:.5rem;

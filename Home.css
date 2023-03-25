@@ -180,6 +180,9 @@ img{
 h4{padding-left:2rem;}
 
 
+
+
+
 @media (max-width: 1000px){
 .Home-Grid{
     grid-template-areas:
@@ -193,6 +196,7 @@ h4{padding-left:2rem;}
     grid-template-rows: 1fr 1fr 1fr 1fr 17.8rem auto;
 }
 }
+
 
 
 @media (max-width: 768px) {
