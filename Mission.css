@@ -80,5 +80,7 @@ img{
 /*    grid-template-columns: 475px;*/
 
     margin:5.5rem .25rem 2rem .25rem;
+    padding-left: .5rem;
+    padding-right:.5rem;
 }    
 }
