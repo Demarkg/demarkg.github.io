@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+h2{
+    font-variant: small-caps;
+    color:#FFB81E;
+    color:#242729;
+}
+
+p{
+    display:flex;
+    width:90%;
+    padding:0;
+    margin: 0rem 0rem .5rem 0rem;
+    height:auto;
+    overflow:hidden;
+    justify-content: center;
+    color:#242729
+}
+
+.article-title{
+    margin:.5rem;
+    font-weight:bolder;
+    font-size: 1.5rem;
+    font-family:"Nirmala UI";
+}
+
+
+
+img{
+    border-radius:.25rem;
+    width:40%;
+    height:auto;
+    margin-top:1rem;
+}
+
+
+.nav-menu{
+    justify-content: left;  
+}
+
+
+.Main-Header{
+    position:fixed;
+    top:0;
+}
+
+
+.nav-menu{
+    position:fixed;
+    width:100%;
+    top:5em;
+}
+
+.Home-Grid{
+    display:grid;
+    top:1rem;
+    background-color:#242729;  /*Charcoal*/
+    grid-template-areas:
+        'A'
+        'F';
+    grid-template-columns: 1fr;
+    grid-template-rows:auto,auto;
+    gap:.5em;
+    margin-bottom:.5em;
+    margin-top: 8.5rem;
+    margin-left:5rem;
+    margin-right:5rem;
+}
+
+.Home-Grid h4{
+    margin:.25rem;
+    align-self: center;
+}
+
+.Home-Grid a{
+    align-self: center;
+    color:white;
+    margin:1rem;
+}
+
+.Home-Grid a:link{
+    display: flex;
+    text-decoration: none;
+    background-color:#652F7E;
+    width:18rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-content: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+.Home-Grid a:hover{
+    background-color:#FFB81E;
+    color:#652F7E;
+    font-weight: bold;
+}
+
+
+
+
+
+.Section_A{
+    grid-area: A;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: .25rem;
+}
+
+/*
+.Section_F{
+    grid-area: F;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: .25rem;
+    text-align: center;
+    padding:.5rem;
+    margin-top: .5rem;
+}*/
