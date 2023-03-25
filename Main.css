@@ -39,6 +39,7 @@ h4{
 
 .Main-Header{
     display:flex;
+    flex-direction: row;
     height:5rem;
     width:100%;
     background-image: url("images/Main_Logo.svg");
@@ -119,6 +120,14 @@ h4{
 
 
 @media (max-width: 768px) {
+    
+    
+/*
+.Main-Header{
+    background-position:right;
+    }
+*/
+    
     
 .nav-menu{
     display: flex;
