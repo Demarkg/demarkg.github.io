@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Resource-BannerA{
+    display:flex;
+    flex-wrap: nowrap;
+    height:3rem;
+    width:100%;
+    background-image:url("images/OASD_Logo.svg");
+    background-position: center;
+    background-color:white;
+    background-repeat: no-repeat;
+    border-top-left-radius:.5rem;
+    border-top-right-radius:.5rem;
+}
+
+.Resource-BannerB{
+    display:flex;
+    flex-wrap: nowrap;
+    height:3rem;
+    width:100%;
+    background-image:url("images/Government_Logo.svg");
+    background-position: center;
+    background-color:#024C7B;
+    background-repeat: no-repeat;
+    border-top-left-radius:.5rem;
+    border-top-right-radius:.5rem;
+}
+
+.Resource-BannerC{
+    display:flex;
+    flex-wrap: nowrap;
+    height:3rem;
+    width:100%;
+    background-image:url("images/Community_Logo.svg");
+    background-position: center;
+    background-color:#EEFCFF;
+    background-repeat: no-repeat;
+    border-top-left-radius:.5rem;
+    border-top-right-radius:.5rem;
+}
+
+.Home-Grid h4{
+    margin:.25rem;
+    align-self: center;
+}
+
+.Home-Grid a{
+    align-self: center;
+/*    color:white;*/
+}
+
+.Home-Grid a:link{
+    display: flex;
+    text-decoration: none;
+    background-color:#652F7E;
+    background-color:lightgray;
+    color:#652F7E;
+font-weight: bold; 
+    width:25rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.Home-Grid a:hover{
+    background-color:#FFB81E;
+    color:#652F7E;
+    color:#652F7E;
+    font-weight: bold;
+}
+
+.Home-Grid{
+    display:grid;
+    background-color:#242729;  /*Charcoal*/
+    grid-template-areas:
+        'A'
+        'B'
+        'C'
+        'F';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap:1rem;
+    margin:8.5rem 10rem .5rem 10rem;
+}
+
+
+.Section_A{
+    grid-area: A;
+    display:flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    padding:0em;
+    border-radius: .5rem;
+}
+
+.Section_B{
+    grid-area: B;
+    display:flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    padding:0em;
+    border-radius: .5rem;
+}
+
+
+.Section_C{
+    grid-area: C;
+    display:flex;
+    flex-direction: column;
+    background-color:whitesmoke;;
+    padding:0em;
+    border-radius: .5rem;
+}
+
+.Footer{
+    grid-area: F;
+    background-color: whitesmoke;
+    border-radius: .25rem;
+    text-align: center;
+    padding:.5rem;
+}
+
+
+
+.Resource-row{
+    display:flex;
+    flex-direction: column;
+    padding:.75rem;
+    border-bottom:solid thin #652F7E;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    
+.Home-Grid{
+    grid-template-columns: 475px;
+    margin:5.5rem .25rem 2rem .25rem;
+}    
+}
