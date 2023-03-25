@@ -54,3 +54,12 @@ h4{
     border-bottom:solid thin #652F7E;
     line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+    
+.Home-Grid{
+/*    grid-template-columns: 475px;*/
+
+    margin:5.5rem .25rem 2rem .25rem;
+}    
+}

@@ -2,12 +2,12 @@
 /* CSS Document */
 
 p{
-    padding:1rem;
-    padding-left:3rem;
+    padding:2rem;
+    text-align: justify;
 }
 
 h2{
-    width:25%;
+    width:20rem;
     font-variant: small-caps;
     color:#FFB81E;
 /*    background-color:#242729;*/
@@ -72,4 +72,13 @@ img{
     width:20rem;
     height:10rem;   
     background-color:red;
+}
+
+@media (max-width: 768px) {
+    
+.Home-Grid{
+/*    grid-template-columns: 475px;*/
+
+    margin:5.5rem .25rem 2rem .25rem;
+}    
 }

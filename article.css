@@ -12,12 +12,13 @@ h2{
 p{
     display:flex;
     width:90%;
-    padding:0;
     margin: 0rem 0rem .5rem 0rem;
     height:auto;
     overflow:hidden;
     justify-content: center;
-    color:#242729
+    color:#242729;
+    text-align: justify;
+    padding:2rem;
 }
 
 .article-title{

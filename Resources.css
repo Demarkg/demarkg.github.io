@@ -136,7 +136,8 @@ font-weight: bold;
 @media (max-width: 768px) {
     
 .Home-Grid{
-    grid-template-columns: 475px;
+/*    grid-template-columns: 475px;*/
+
     margin:5.5rem .25rem 2rem .25rem;
 }    
 }
