@@ -104,7 +104,7 @@ img{
 /*    grid-template-rows:minmax(10rem, 30rem) minmax(10rem, 30rem) 17.8rem auto;*/
     grid-template-rows:30rem 30rem 15rem auto;
     gap:.5rem;
-    margin:8.5rem 10rem .5rem 10rem;
+    margin:8rem 10rem .5rem 10rem;
 }
 
 .Section_A{
@@ -179,21 +179,24 @@ h4{padding-left:2rem;}
     }
 
 
-@media (max-width: 1000px){
+@media (max-width: 1500px){
+    .Home-Grid{
+    margin:8rem .25rem .5rem .25rem;
+    }}
+
+@media (max-width: 1200px){
 .Home-Grid{
     grid-template-areas:
-        'A Events'
-        'B Events'
-        'C Events'
-        'D Events'
+        'A B'
+        'C D'
+        'Events Events'
         'E E'
         'F F';
-    grid-template-columns: 1fr 25rem;
-    grid-template-rows: 1fr 1fr 1fr 1fr 17.8rem auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30rem 30rem auto 15rem auto;
+    margin:8rem .25rem .5rem .25rem;
 }
 }
-
-
 
 @media (max-width: 768px) {
     
@@ -208,9 +211,6 @@ h4{padding-left:2rem;}
         'F';
     grid-template-columns: 100%;
     grid-template-rows: 30rem 30rem 30rem 30rem auto 15rem auto;
-    margin:5.5rem .25rem 2rem .25rem;
+    margin:5.5rem .25rem .5rem .25rem;
 }    
-}
-
-
-
+    }
