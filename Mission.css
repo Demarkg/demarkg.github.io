@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-p{
-    padding:2rem;
-    text-align: justify;
-}
 
 h2{
     width:20rem;
@@ -39,6 +35,11 @@ h2{
     background-color: whitesmoke;
 }
 
+.Section_A p{
+    padding:2rem;
+    text-align: justify;
+}
+
 .Section_B{
     grid-area: B;
     display:flex;
@@ -66,13 +67,20 @@ h2{
     border-radius: .5rem;
 }
 
-img{
-    object-fit:cover;
-    border-radius: .25rem;
-    width:20rem;
-    height:10rem;   
-    background-color:red;
+.Section_C p{
+    padding:2rem;
+    text-align: justify;
 }
+
+.Footer a {
+        background-color:whitesmoke;
+    }
+    
+.Footer a:hover {
+        background-color:whitesmoke;
+    }
+
+
 
 @media (max-width: 768px) {
     

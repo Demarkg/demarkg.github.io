@@ -50,19 +50,6 @@ h4{
     top:0;
 }
 
-
-
-/*
-.main-logo {
-    align-self: center;
-    height:100%;
-    width:auto;
-    margin:0;
-    margin-left:auto;
-    margin-right:auto;
-}
-*/
-
 .nav-menu{
     display:flex;
     justify-content: center;
@@ -96,9 +83,9 @@ h4{
 .hamburger{
     display:flex;
     flex-direction: column;
+    visibility:hidden;
     margin-left:1rem;
     justify-content: center;
-/*    visibility: hidden;*/
     cursor:pointer; 
 
 }
@@ -107,10 +94,10 @@ h4{
     display:block;
     color:white;
     background-color:white;
-    height:.25em;
-    width:2.5em;
-    margin:.25em;
-    border-radius:.25em;
+    height:.2rem;
+    width:2.25rem;
+    margin:.2rem;
+    border-radius:.2rem;
 }
 
 .Footer{
@@ -119,29 +106,34 @@ h4{
     flex-direction: column;
     background-color: whitesmoke;
     border-radius: .25rem;
-    text-align: center;
-    padding:.25rem;
+    padding:1rem;
     align-content: center;
     justify-content: center;
+    align-items: center;
 }
 
+
 .Footer p{
-    padding: 0;
-    margin:.5rem;
+    padding: 1rem;
+    border-bottom: solid .1rem #61605F;
+}
+
+.Footer a img{
+    height:3rem;
+    margin:0;
+}
+
+.Footer h5{
+    padding:.5rem;
+    border-top: solid .1rem #61605F; 
+    border-bottom: solid .1rem #61605F; 
 }
 
 
 
 @media (max-width: 768px) {
     
-    
-/*
-.Main-Header{
-    background-position:right;
-    }
-*/
-    
-    
+ 
 .nav-menu{
     display: flex;
     flex-direction: column;
@@ -163,7 +155,7 @@ h4{
 .Main-Header{
     position:fixed;
     top:0;
-    border-bottom: solid .5rem #652F7E;
+/*    border-bottom: solid .5rem #652F7E;*/
 }
 
 .nav-menu li{
@@ -193,13 +185,13 @@ h4{
     
     
     .hamburger.active .bar:nth-child(1){
-        transform:translateY(.75em) rotate(45deg);
+        transform:translateY(.63rem) rotate(45deg);
     }
     .hamburger.active .bar:nth-child(2){
         opacity:0;
     }
        .hamburger.active .bar:nth-child(3){
-       transform:translateY(-.75em) rotate(-45deg);
+       transform:translateY(-.63rem) rotate(-45deg);
     }
     
 }

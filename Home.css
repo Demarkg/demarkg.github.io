@@ -27,12 +27,14 @@ img{
     font-family:"Nirmala UI";
 }
 
+
+
 .article-link{
     display:flex;
+    flex-direction:row;
     width:90%;
-    padding:.25rem;
-    align-content: center;
     justify-content: center;
+    padding-top:.25rem;
     margin:.25rem;
     background-color:lightgray;
     border-radius: 1rem;
@@ -166,21 +168,15 @@ img{
     line-height: 1.5;
 }
 
-.Footer{
-    grid-area:F;
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    border-radius: .25rem;
-    text-align: center;
-    padding:.5rem;
-    margin-top: .5rem;
-}
-
 h4{padding-left:2rem;}
 
-
-
+.Footer a {
+        background-color:whitesmoke;
+    }
+    
+.Footer a:hover {
+        background-color:whitesmoke;
+    }
 
 
 @media (max-width: 1000px){

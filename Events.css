@@ -55,6 +55,18 @@ h4{
     line-height: 1.5;
 }
 
+.Footer a {
+        background-color:whitesmoke;
+    }
+    
+.Footer a:hover {
+        background-color:whitesmoke;
+    }
+
+
+
+
+
 @media (max-width: 768px) {
     
 .Home-Grid{
