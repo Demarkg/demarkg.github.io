@@ -103,10 +103,6 @@ img{
     font-weight: bold;
 }
 
-
-
-
-
 .Section_A{
     grid-area: A;
     display:flex;
@@ -115,6 +111,18 @@ img{
     background-color: whitesmoke;
     border-radius: .25rem;
 }
+
+.Footer a {
+        background-color:whitesmoke;
+    }
+
+.Footer a:link{
+    background-color:whitesmoke;
+}
+    
+.Footer a:hover {
+        background-color:whitesmoke;
+    }
 
 @media (max-width: 768px) {
 .Home-Grid{
