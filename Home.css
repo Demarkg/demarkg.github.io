@@ -188,8 +188,8 @@ h4{padding-left:2rem;}
 @media (max-width: 1200px){
 .Home-Grid{
     grid-template-areas:
-        'A B'
-        'C D'
+        'A C'
+        'B D'
         'Events Events'
         'E E'
         'F F';
@@ -204,8 +204,8 @@ h4{padding-left:2rem;}
 .Home-Grid{
     grid-template-areas:
         'A'
-        'B'
         'C'
+        'B'
         'D'
         'Events'
         'E'
