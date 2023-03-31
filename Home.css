@@ -10,8 +10,9 @@ p{
     overflow:hidden;
     justify-content: center;
     color:#242729;
-
 }
+
+
 
 img{
     border-radius:.25rem;
@@ -96,8 +97,8 @@ img{
     display:grid;
     background-color:#242729;  /*Charcoal*/
     grid-template-areas:
-        'A B Events'
-        'C D Events'
+        'A C Events'
+        'B D Events'
         'E E Events'
         'F F F';
     grid-template-columns: 1fr 1fr 30rem;
